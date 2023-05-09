@@ -34,8 +34,13 @@ AWS_REGION=<region>
 AWS_BUCKET=<s3-bucket-name>
 ```
 
-Run Strapi app
+Build Strapi app
+```bash
+npm run build
 ```
+
+Run Strapi app
+```bash
 npm run develop
 ```
 

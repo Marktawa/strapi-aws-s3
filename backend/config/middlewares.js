@@ -16,14 +16,14 @@ module.exports = [
             'data:',
             'blob:',
             'dl.airtable.com',
-            'yourBucketName.s3.yourRegion.amazonaws.com',
+            `${process.env.AWS_BUCKET}.s3.${process.env.AWS_REGION}.amazonaws.com`
           ],
           'media-src': [
             "'self'",
             'data:',
             'blob:',
             'dl.airtable.com',
-            'yourBucketName.s3.yourRegion.amazonaws.com',
+            `${process.env.AWS_BUCKET}.s3.${process.env.AWS_REGION}.amazonaws.com`
           ],
           upgradeInsecureRequests: null,
         },
