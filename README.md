@@ -17,7 +17,7 @@ git clone https://github.com/Marktawa/strapi-aws-s3.git
 
 - Change directory
 ```bash
-cd strapi-aws-s3
+cd backend/strapi-aws-s3
 ```
 
 ## Strapi Setup
