@@ -1,4 +1,5 @@
 # Setup Amazon S3 Upload Provider Plugin in Strapi
+
 Code container for the tutorial: [How to Setup Amazon S3 Upload Provider Plugin for your Strapi App](https://strapi.io/blog/how-to-set-up-amazon-s3-upload-provider-plugin-for-our-strapi-app)
 
 ## Prerequisites
@@ -34,8 +35,13 @@ AWS_REGION=<region>
 AWS_BUCKET=<s3-bucket-name>
 ```
 
-Run Strapi app
+Build Strapi app
+```bash
+npm run build
 ```
+
+Run Strapi app
+```bash
 npm run develop
 ```
 
