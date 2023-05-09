@@ -1,5 +1,4 @@
-// ~/strapi-aws-s3/backend/config/middlewares.js
-    
+// ~/strapi-aws-s3/backend/config/middlewares.js    
 module.exports = [
   'strapi::errors',
   /* Replace 'strapi::security', with this snippet */
